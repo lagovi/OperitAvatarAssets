@@ -1,0 +1,104 @@
+{
+  "schema": "operit.avatar.presets.v1",
+  "version": 1,
+  "updatedAt": "2026-10-31T00:00:00Z",
+  "presets": [
+    {
+      "id": "gltf.fox",
+      "type": "gltf",
+      "name": "Fox",
+      "summary": "Low-poly fox with Survey, Walk and Run cycles.",
+      "model": "presets/gltf/fox/model.glb",
+      "licenseFile": "presets/gltf/fox/LICENSE.txt",
+      "license": "CC0 1.0 (model) / CC BY 4.0 (rig, conversion)",
+      "sizeBytes": 162852,
+      "sha256": "d97044e701822bac5a62696459b27d7b375aada5de8574ed4362edbba94771f7",
+      "animations": [
+        "Survey",
+        "Walk",
+        "Run"
+      ],
+      "defaultAnimation": "Survey"
+    },
+    {
+      "id": "gltf.xbot",
+      "type": "gltf",
+      "name": "Xbot",
+      "summary": "Humanoid mannequin with seven mood-friendly clips.",
+      "model": "presets/gltf/xbot/model.glb",
+      "licenseFile": "presets/gltf/xbot/LICENSE.txt",
+      "license": "three.js examples (Mixamo export)",
+      "sizeBytes": 2930032,
+      "sha256": "002f8d269de68e5dce3d25195caf390d1aa359bbfaae3fcf4c8dc78ec36c3ba5",
+      "animations": [
+        "agree",
+        "headShake",
+        "idle",
+        "run",
+        "sad_pose",
+        "sneak_pose",
+        "walk"
+      ],
+      "defaultAnimation": "idle"
+    },
+    {
+      "id": "gltf.soldier",
+      "type": "gltf",
+      "name": "Soldier",
+      "summary": "Humanoid character with Idle, Walk, Run.",
+      "model": "presets/gltf/soldier/model.glb",
+      "licenseFile": "presets/gltf/soldier/LICENSE.txt",
+      "license": "three.js examples (Mixamo export)",
+      "sizeBytes": 2160468,
+      "sha256": "dfb230fc1f942f259dd00281a1186953ad602fc5d69067ce63e24b2aa439736b",
+      "animations": [
+        "Idle",
+        "Run",
+        "TPose",
+        "Walk"
+      ],
+      "defaultAnimation": "Idle"
+    },
+    {
+      "id": "gltf.cube",
+      "type": "gltf",
+      "name": "Morph Cube",
+      "summary": "Tiny morph-target cube, minimal smoke test.",
+      "model": "presets/gltf/cube/model.glb",
+      "licenseFile": "presets/gltf/cube/LICENSE.txt",
+      "license": "CC0 1.0",
+      "sizeBytes": 6752,
+      "sha256": "214ee56160a50dbf22543a1d66dbf860986e87f0efac3d89feac1359d0e6aeab",
+      "animations": [
+        "Square"
+      ],
+      "defaultAnimation": "Square"
+    },
+    {
+      "id": "gltf.cesiumman",
+      "type": "gltf",
+      "name": "Cesium Man",
+      "summary": "Rigged walking figure, single clip.",
+      "model": "presets/gltf/cesiumman/model.glb",
+      "licenseFile": "presets/gltf/cesiumman/LICENSE.txt",
+      "license": "CC BY 4.0",
+      "sizeBytes": 438044,
+      "sha256": "b7001eaeea8254bd44773bcd247e78696d94169388fbb2a1800fc69434e777d9",
+      "animations": [],
+      "defaultAnimation": null
+    },
+    {
+      "id": "gltf.riggedfigure",
+      "type": "gltf",
+      "name": "Rigged Figure",
+      "summary": "Rigged walking figure, single clip.",
+      "model": "presets/gltf/riggedfigure/model.glb",
+      "licenseFile": "presets/gltf/riggedfigure/LICENSE.txt",
+      "license": "CC BY 4.0",
+      "sizeBytes": 50116,
+      "sha256": "d6be85417d3e256861ee733eea6916093a7af7c79c16366181fd8abcaeb38cf5",
+      "animations": [],
+      "defaultAnimation": null
+    }
+  ]
+}

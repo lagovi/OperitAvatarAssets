@@ -1,0 +1,8 @@
+Xbot — glTF sample model from the three.js repository
+
+Sourced from the three.js examples bundle; character exported from Mixamo.
+The three.js repository itself is MIT licensed; the characters in its example
+models are third-party assets distributed with the examples for demonstration.
+Review https://www.mixamo.com usage terms before redistributing outside this
+asset pack.
+Source: https://github.com/mrdoob/three.js/tree/dev/examples/models/gltf

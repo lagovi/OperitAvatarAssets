@@ -1,0 +1,4 @@
+Animated Morph Cube — glTF sample model
+
+Copyright 2017 Microsoft — CC0 1.0 Universal
+Source: https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/AnimatedMorphCube

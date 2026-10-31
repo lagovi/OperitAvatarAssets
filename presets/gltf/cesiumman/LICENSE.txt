@@ -1,0 +1,5 @@
+Cesium Man — glTF sample model
+
+Copyright 2017 Cesium — CC BY 4.0
+Cesium logo is a non-copyrightable trademark of Cesium.
+Source: https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/CesiumMan
