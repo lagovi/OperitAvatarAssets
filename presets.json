@@ -1,7 +1,7 @@
 {
   "schema": "operit.avatar.presets.v1",
-  "version": 1,
-  "updatedAt": "2026-10-31T00:00:00Z",
+  "version": 2,
+  "updatedAt": "2026-11-12T00:00:00Z",
   "presets": [
     {
       "id": "gltf.fox",
@@ -18,7 +18,8 @@
         "Walk",
         "Run"
       ],
-      "defaultAnimation": "Survey"
+      "defaultAnimation": "Survey",
+      "thumbnail": "presets/gltf/fox/thumbnail.png"
     },
     {
       "id": "gltf.xbot",
@@ -39,7 +40,8 @@
         "sneak_pose",
         "walk"
       ],
-      "defaultAnimation": "idle"
+      "defaultAnimation": "idle",
+      "thumbnail": "presets/gltf/xbot/thumbnail.png"
     },
     {
       "id": "gltf.soldier",
@@ -57,7 +59,8 @@
         "TPose",
         "Walk"
       ],
-      "defaultAnimation": "Idle"
+      "defaultAnimation": "Idle",
+      "thumbnail": "presets/gltf/soldier/thumbnail.png"
     },
     {
       "id": "gltf.cube",
@@ -72,7 +75,8 @@
       "animations": [
         "Square"
       ],
-      "defaultAnimation": "Square"
+      "defaultAnimation": "Square",
+      "thumbnail": "presets/gltf/cube/thumbnail.png"
     },
     {
       "id": "gltf.cesiumman",
@@ -85,7 +89,8 @@
       "sizeBytes": 438044,
       "sha256": "b7001eaeea8254bd44773bcd247e78696d94169388fbb2a1800fc69434e777d9",
       "animations": [],
-      "defaultAnimation": null
+      "defaultAnimation": null,
+      "thumbnail": "presets/gltf/cesiumman/thumbnail.png"
     },
     {
       "id": "gltf.riggedfigure",
@@ -98,7 +103,68 @@
       "sizeBytes": 50116,
       "sha256": "d6be85417d3e256861ee733eea6916093a7af7c79c16366181fd8abcaeb38cf5",
       "animations": [],
-      "defaultAnimation": null
+      "defaultAnimation": null,
+      "thumbnail": "presets/gltf/riggedfigure/thumbnail.png"
+    },
+    {
+      "id": "gltf.rose",
+      "type": "gltf",
+      "name": "Rose",
+      "summary": "Anime humanoid with five moods: angry, happy, shy, aojiao, cry.",
+      "model": "presets/gltf/rose/model.glb",
+      "licenseFile": "presets/gltf/rose/LICENSE.txt",
+      "license": "CC0 1.0 (character) / MIT (motion)",
+      "sizeBytes": 2518352,
+      "sha256": "2767caf74dc78326e8a8266ca945d7dc5075e8ecc382deec11cb04a9abcfda05",
+      "animations": [
+        "angry",
+        "happy",
+        "shy",
+        "aojiao",
+        "cry"
+      ],
+      "defaultAnimation": null,
+      "thumbnail": "presets/gltf/rose/thumbnail.png"
+    },
+    {
+      "id": "gltf.kate",
+      "type": "gltf",
+      "name": "Kate",
+      "summary": "Anime humanoid with five moods: angry, happy, shy, aojiao, cry.",
+      "model": "presets/gltf/kate/model.glb",
+      "licenseFile": "presets/gltf/kate/LICENSE.txt",
+      "license": "CC0 1.0 (character) / MIT (motion)",
+      "sizeBytes": 1660540,
+      "sha256": "2f901b8e0db8279521c45c570af32c6a64aaad121bb725114ee69d219ae37f6e",
+      "animations": [
+        "angry",
+        "happy",
+        "shy",
+        "aojiao",
+        "cry"
+      ],
+      "defaultAnimation": null,
+      "thumbnail": "presets/gltf/kate/thumbnail.png"
+    },
+    {
+      "id": "gltf.jennifer",
+      "type": "gltf",
+      "name": "Jennifer",
+      "summary": "Anime humanoid with five moods: angry, happy, shy, aojiao, cry.",
+      "model": "presets/gltf/jennifer/model.glb",
+      "licenseFile": "presets/gltf/jennifer/LICENSE.txt",
+      "license": "CC0 1.0 (character) / MIT (motion)",
+      "sizeBytes": 2151576,
+      "sha256": "62ef91a28e46f7330a18522a934b0e6ea4216ff6dfdd7701e92fafdfd795f2a9",
+      "animations": [
+        "angry",
+        "happy",
+        "shy",
+        "aojiao",
+        "cry"
+      ],
+      "defaultAnimation": null,
+      "thumbnail": "presets/gltf/jennifer/thumbnail.png"
     }
   ]
 }

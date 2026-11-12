@@ -1,0 +1,5 @@
+Character: 100Avatars by Polygonal Mind
+
+Model: CC0 1.0 Universal, author Polygonal Mind.
+Source: https://github.com/ToxSam/open-source-avatars
+Animations: retargeted from the tk256ailab VRMA set (MIT), see LICENSE-MOTION.txt.

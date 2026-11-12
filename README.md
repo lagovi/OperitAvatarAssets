@@ -8,6 +8,7 @@ Layout:
     presets.json
     presets/
       gltf/<id>/model.glb
+      gltf/<id>/thumbnail.png
       gltf/<id>/LICENSE.txt
       dragonbones/<id>/...
       webp/<id>/...
@@ -15,8 +16,10 @@ Layout:
       mmd/<id>/...
 
 `presets.json` is the single source of truth: every entry carries `type`,
-`model` path, `sha256`, `sizeBytes`, `license`, `licenseFile`, and the
-animation names the app should map to moods.
+`model` path, `thumbnail` path, `sha256`, `sizeBytes`, `license`,
+`licenseFile`, and the animation names the app should map to moods. The
+in-app cloud gallery shows `thumbnail` next to `name` and `summary`, so keep
+the thumbnail small (512x512 PNG) and representative.
 
 Rules for new presets:
 

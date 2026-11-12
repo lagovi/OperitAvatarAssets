@@ -1,0 +1,3 @@
+tk256ailab VRMA animation clips
+https://github.com/tk256ailab/vrma (MIT License)
+Clips used: Angry, Jump, Blush, Thinking, Sad (mood keys angry/happy/shy/aojiao/cry).
